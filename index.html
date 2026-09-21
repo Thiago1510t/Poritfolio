@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Portfólio</title>
+
+    <!-- LOCOMOTIVE -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    >
+
+    <!-- FONTES -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+
+    <!-- SOMBRA PERSONAGEM -->
+
+    <div class="personagem-sombra"></div>
+
+
+    <!-- PERSONAGEM PRINCIPAL -->
+
+    <canvas id="personagem"></canvas>
+
+
+
+    <!-- HEADER -->
+
+    <header id="nav">
+
+        <div class="logo">
+            LOGO
+        </div>
+
+        <nav>
+            <span>Início</span>
+            <span>Sobre</span>
+            <span>Projetos</span>
+            <span>Contato</span>
+        </nav>
+
+    </header>
+
+
+
+    <!-- SITE -->
+
+    <main id="main">
+
+
+        <!-- ==================================================
+        01 — HERO
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page"
+        >
+
+            <div class="hero-info hero-info-left">
+
+                <span>
+                    CREATIVE DIRECTION
+                </span>
+
+                <span>
+                    3D / CGI / MOTION
+                </span>
+
+            </div>
+
+
+            <div class="hero-info hero-info-right">
+
+                <span>
+                    SÃO PAULO — BR
+                </span>
+
+                <span>
+                    FRAME 001 / 240
+                </span>
+
+            </div>
+
+
+
+            <!-- MARQUEE -->
+
+            <div class="hero-marquee">
+
+                <div class="hero-marquee-track">
+
+
+                    <div class="hero-title-group">
+
+                        <span class="title-heavy">
+                            DO CONCEITO
+                        </span>
+
+                        <span class="title-serif">
+                            à
+                        </span>
+
+                        <span class="title-outline">
+                            CRIAÇÃO
+                        </span>
+
+                        <span class="title-divider">
+                            •
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-title-group">
+
+                        <span class="title-heavy">
+                            DO CONCEITO
+                        </span>
+
+                        <span class="title-serif">
+                            à
+                        </span>
+
+                        <span class="title-outline">
+                            CRIAÇÃO
+                        </span>
+
+                        <span class="title-divider">
+                            •
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-title-group">
+
+                        <span class="title-heavy">
+                            DO CONCEITO
+                        </span>
+
+                        <span class="title-serif">
+                            à
+                        </span>
+
+                        <span class="title-outline">
+                            CRIAÇÃO
+                        </span>
+
+                        <span class="title-divider">
+                            •
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- COPY -->
+
+            <div class="hero-copy">
+
+                <p
+                    id="hero-subtitle"
+                    class="hero-subtitle"
+                    data-text="Transformando ideias em experiências visuais."
+                >
+                    Transformando ideias em experiências visuais.
+                </p>
+
+
+                <button
+                    class="botao botao-preto hero-cta"
+                >
+                    Ver projetos ↗
+                </button>
+
+            </div>
+
+
+
+            <!-- SCROLL -->
+
+            <div class="scroll-indicator">
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <div class="scroll-arrow">
+                    ↓
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+        02 — SOBRE
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page1"
+        >
+
+
+            <!-- TEXTO -->
+
+            <div class="texto texto-esquerda">
+
+                <span class="numero-secao">
+                    02 / 07
+                </span>
+
+                <span class="categoria">
+                    SOBRE
+                </span>
+
+
+                <h2>
+
+                    Criatividade,
+
+                    <br>
+
+                    <span class="outline">
+                        tecnologia
+                    </span>
+
+                    <br>
+
+                    e movimento.
+
+                </h2>
+
+
+                <p>
+                    Ideias transformadas em experiências visuais
+                    através de design, CGI, 3D, motion e direção criativa.
+                </p>
+
+            </div>
+
+
+
+            <!-- CABEÇA CRT -->
+
+            <div class="head-visual">
+
+
+                <div class="head-kicker">
+
+                    <span>
+                        CREATIVE
+                    </span>
+
+                    <span>
+                        TECHNOLOGY
+                    </span>
+
+                    <span>
+                        IN MOTION
+                    </span>
+
+                </div>
+
+
+                <div class="head-canvas-wrapper">
+
+                    <canvas
+                        id="cabeca-canvas"
+                    ></canvas>
+
+                </div>
+
+
+                <div class="head-side-info">
+
+                    <span>
+                        VISUAL 002
+                    </span>
+
+                    <span>
+                        05 SEC LOOP
+                    </span>
+
+                    <span>
+                        24 FPS
+                    </span>
+
+                    <i></i>
+
+                </div>
+
+
+                <div class="head-frame-info">
+
+                    <span>
+
+                        FRAME
+
+                        <b id="head-frame-number">
+                            001
+                        </b>
+
+                        / 120
+
+                    </span>
+
+
+                    <div class="head-frame-line">
+
+                        <div
+                            id="head-frame-progress"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="head-status">
+
+                    <div
+                        class="head-status-dot"
+                    ></div>
+
+                    <span>
+                        SIGNAL ACTIVE
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+        03 — PROCESSO
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page2"
+        >
+
+            <div class="texto texto-direita">
+
+                <span class="numero-secao">
+                    03 / 07
+                </span>
+
+                <span class="categoria">
+                    PROCESSO
+                </span>
+
+
+                <h2>
+
+                    Tudo começa
+
+                    <br>
+
+                    com uma
+
+                    <span class="outline">
+                        ideia.
+                    </span>
+
+                </h2>
+
+
+                <p>
+                    Conceito, pesquisa, direção visual,
+                    desenvolvimento e acabamento trabalhando juntos.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+        04 — SERVIÇOS
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page3"
+        >
+
+            <div class="texto texto-esquerda">
+
+                <span class="numero-secao">
+                    04 / 07
+                </span>
+
+                <span class="categoria">
+                    SERVIÇOS
+                </span>
+
+
+                <h2>
+
+                    Design,
+
+                    <br>
+
+                    CGI,
+
+                    <br>
+
+                    <span class="outline">
+                        motion.
+                    </span>
+
+                </h2>
+
+
+                <p>
+                    Direção criativa, identidade visual,
+                    CGI, animação 3D, motion e experiências digitais.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+        05 — PORTFÓLIO
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page4"
+        >
+
+            <div class="texto texto-direita">
+
+                <span class="numero-secao">
+                    05 / 07
+                </span>
+
+                <span class="categoria">
+                    PORTFÓLIO
+                </span>
+
+
+                <h2>
+
+                    Ideias que
+
+                    <br>
+
+                    <span class="outline">
+                        ganham forma.
+                    </span>
+
+                </h2>
+
+
+                <p>
+                    Projetos desenvolvidos para marcas,
+                    campanhas, produtos e experiências visuais.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+        06 — DIREÇÃO
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page5"
+        >
+
+            <div class="texto texto-esquerda">
+
+                <span class="numero-secao">
+                    06 / 07
+                </span>
+
+                <span class="categoria">
+                    DIREÇÃO
+                </span>
+
+
+                <h2>
+
+                    Mais do que
+
+                    <br>
+
+                    executar,
+
+                    <br>
+
+                    <span class="outline">
+                        construir linguagem.
+                    </span>
+
+                </h2>
+
+
+                <p>
+                    Cada detalhe é pensado para criar identidade,
+                    consistência e uma experiência visual memorável.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+        07 — CONTATO
+        =================================================== -->
+
+        <section
+            class="secao"
+            id="page6"
+        >
+
+            <div class="texto texto-direita">
+
+                <span class="numero-secao">
+                    07 / 07
+                </span>
+
+                <span class="categoria">
+                    CONTATO
+                </span>
+
+
+                <h2>
+
+                    Vamos
+
+                    <br>
+
+                    <span class="outline">
+                        criar
+                    </span>
+
+                    juntos.
+
+                </h2>
+
+
+                <p>
+                    Uma boa ideia merece uma execução à altura.
+                </p>
+
+
+                <button
+                    class="botao botao-preto botao-contato"
+                >
+                    Entrar em contato
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- LIBS -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"
+    ></script>
+
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+    ></script>
+
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+    ></script>
+
+
+    <script
+        src="script.js"
+    ></script>
+
+
+</body>
+
+</html>
